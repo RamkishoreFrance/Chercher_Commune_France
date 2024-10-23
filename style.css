@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* Style général du corps */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -175,7 +175,6 @@ th.sortable:hover {
     background-color: #007bff; /* Changement de fond au survol */
     color: white; /* Changement de couleur du texte au survol */
 }
-=======
 /* Style général du corps */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -352,4 +351,4 @@ th.sortable:hover {
     background-color: #007bff; /* Changement de fond au survol */
     color: white; /* Changement de couleur du texte au survol */
 }
->>>>>>> 5aab155e76b9f0edce280055a6dd3a4d561e79ca
+
