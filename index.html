@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -46,3 +47,53 @@
     <script src="app.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche de Communes</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="icon" type="image/png" href="france.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recherche des Communes en France</h1>
+        <img src="carte_France.png" alt="Carte de France" class="banner">
+
+        <div class="select-container">
+            <label for="region-select">Sélectionnez une région :</label>
+            <select id="region-select">
+                <option value="">--Choisir une région--</option>
+            </select>
+        </div>
+
+        <div class="select-container">
+            <label for="department-select">Sélectionnez un département :</label>
+            <select id="department-select" disabled>
+                <option value="">--Choisir un département--</option>
+            </select>
+        </div>
+
+        <button id="show-cities-btn" disabled>Afficher les communes</button>
+
+        <div id="city-list"></div>
+
+        <button id="export-btn" disabled>Exporter en CSV</button>
+
+        <button id="geo-btn">Géolocaliser et afficher ma ville</button>
+        <div id="geo-info"></div>
+        <div id="map" style="height: 400px; width: 100%;"></div>
+    </div>
+
+    <!-- Boutons de navigation haut/bas -->
+    <div id="scroll-top" class="scroll-button">▲</div>
+    <div id="scroll-bottom" class="scroll-button">▼</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+>>>>>>> 5aab155e76b9f0edce280055a6dd3a4d561e79ca
